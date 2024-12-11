@@ -1,0 +1,6 @@
+src/router里面有挂载的地址。
+app.vue可以让打开的界面显示哪个界面
+
+main.js入口文件 createApp创建实例
+
+index.html 单页入口 提供id为app挂载点
