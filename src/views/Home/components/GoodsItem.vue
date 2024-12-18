@@ -18,8 +18,8 @@ defineProps({
   </RouterLink> -->
 
 <!-- 事例一个 -->
-  <RouterLink to="/" class="goods-item">
-    <img src="D:\vueproject1\src\assets\goodspicture\20241218093451.png" alt="" />
+  <RouterLink :to="`/detail/1`" class="goods-item">
+    <img src="@/assets/goodspicture/20241218093451.png" alt="" />
     <p class="name ellipsis">热水袋</p>
     <p class="desc ellipsis">暖暖的很安心</p>
     <p class="price">&yen;25</p>

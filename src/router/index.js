@@ -3,6 +3,7 @@ import Login from'@/views/Login/index.vue'
 import Layout from'@/views/Layout/index.vue'
 import Home from'@/views/Home/index.vue'
 import Category from'@/views/Category/index.vue'
+import Detail from'@/views/Detail/index.vue'
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -19,11 +20,15 @@ const router = createRouter({
         {
           path:'category/:id',
           component:Category
+        },
+        {
+          path:'detail/:id',
+          component:Detail
         }
       ]
     },
     {
-      path:'/Login',
+      path:'/login',
       component:Login
     }
   ],
