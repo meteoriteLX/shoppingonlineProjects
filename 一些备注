@@ -8,3 +8,5 @@ index.html 单页入口 提供id为app挂载点
 运行npm run serve
 
 退出前目录 cd ../
+
+可以进行一些函数封装。比如把banner相关的都放到一个usebanner.js，然后其他地方调用这个

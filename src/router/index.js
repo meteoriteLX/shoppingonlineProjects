@@ -17,7 +17,7 @@ const router = createRouter({
           component:Home 
         },
         {
-          path:'category',
+          path:'category/:id',
           component:Category
         }
       ]
@@ -26,7 +26,11 @@ const router = createRouter({
       path:'/Login',
       component:Login
     }
-  ]
+  ],
+  scrollBehavior () {
+    return { top:0 }
+  }
+  // 切页时滚动条自动回到顶部
 })
 
 export default router

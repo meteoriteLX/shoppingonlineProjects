@@ -25,14 +25,14 @@
         <li class="home">
           <RouterLink to="/">首页</RouterLink>
         </li>
-        <li> <RouterLink to="/">鲜果</RouterLink> </li>
-        <li> <RouterLink to="/">鲜蔬</RouterLink> </li>
-        <li> <RouterLink to="/">水产</RouterLink> </li>
-        <li> <RouterLink to="/">肉蛋</RouterLink> </li>
-        <li> <RouterLink to="/">米面</RouterLink> </li>
-        <li> <RouterLink to="/">茶</RouterLink> </li>
-        <li> <RouterLink to="/">熟食</RouterLink> </li>
-        <li> <RouterLink to="/">其他</RouterLink> </li>
+        <li> <RouterLink active-class="active" :to="`/category/1`">鲜果</RouterLink> </li>
+        <li> <RouterLink active-class="active" :to="`/category/2`">鲜蔬</RouterLink> </li>
+        <li> <RouterLink active-class="active" :to="`/category/3`">水产</RouterLink> </li>
+        <li> <RouterLink active-class="active" :to="`/category/4`">肉蛋</RouterLink> </li>
+        <li> <RouterLink active-class="active" :to="`/category/5`">米面</RouterLink> </li>
+        <li> <RouterLink active-class="active" :to="`/category/6`">茶</RouterLink> </li>
+        <li> <RouterLink active-class="active" :to="`/category/7`">熟食</RouterLink> </li>
+        <li> <RouterLink active-class="active" :to="`/category/8`">其他</RouterLink> </li>
       </ul>
       <div class="search">
         <i class="iconfont icon-search"></i>

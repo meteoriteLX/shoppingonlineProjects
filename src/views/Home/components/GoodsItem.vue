@@ -9,11 +9,20 @@ defineProps({
 
 
 <template>
-  <RouterLink to="/" class="goods-item">
+<!-- 调用了接口版如下 -->
+  <!-- <RouterLink to="/" class="goods-item">
     <img src="goods.picture" alt="" />
     <p class="name ellipsis">{{ goods.name }}</p>
     <p class="desc ellipsis">{{ goods.desc }}</p>
     <p class="price">&yen;{{ goods.price }}</p>
+  </RouterLink> -->
+
+<!-- 事例一个 -->
+  <RouterLink to="/" class="goods-item">
+    <img src="D:\vueproject1\src\assets\goodspicture\20241218093451.png" alt="" />
+    <p class="name ellipsis">热水袋</p>
+    <p class="desc ellipsis">暖暖的很安心</p>
+    <p class="price">&yen;25</p>
   </RouterLink>
 </template>
 
