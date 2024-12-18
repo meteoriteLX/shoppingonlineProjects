@@ -5,5 +5,11 @@ import store from './store'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import '@/styles/common.scss'
+import { createPinia } from 'pinia'
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
-createApp(App).use(store).use(router).use(ElementPlus).mount('#app')
+const pinia = createPinia()
+pinia.use(piniaPluginPersistedstate)
+
+createApp(App).use(store).use(pinia).use(router).use(ElementPlus).mount('#app')
+
